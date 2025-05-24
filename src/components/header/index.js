@@ -7,7 +7,7 @@ import { animateScroll } from 'react-scroll'
 
 export default function Header() {
   return (
-    <header className="shadow-card-value fixed top-0 z-50 w-full bg-white">
+    <header className="fixed top-0 z-50 w-full bg-white shadow-card-value">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"

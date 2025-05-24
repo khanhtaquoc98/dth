@@ -64,7 +64,7 @@ export default function ProcessSection() {
                 <Box
                   key={item.step}
                   data-aos="fade-up"
-                  className="hover:bg-green-gradient flex cursor-pointer items-center gap-1 rounded-[36px] bg-white p-[0.2rem] drop-shadow-sm transition-all hover:text-white hover:shadow-lg sm:gap-x-4 sm:p-[0.5rem_1rem]"
+                  className="flex cursor-pointer items-center gap-1 rounded-[36px] bg-white p-[0.2rem] drop-shadow-sm transition-all hover:bg-green-gradient hover:text-white hover:shadow-lg sm:gap-x-4 sm:p-[0.5rem_1rem]"
                 >
                   <Box className="flex h-12 w-12 items-center justify-center font-bold sm:text-xl">
                     {item.step}

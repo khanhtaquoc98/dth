@@ -68,7 +68,7 @@ export default function ValueSection() {
             <Card
               key={item.title}
               data-aos="fade-up"
-              className="!shadow-card-value hover:bg-green-gradient group w-full cursor-pointer !rounded-[30px] p-10 transition-all sm:w-[300px]"
+              className="group w-full cursor-pointer !rounded-[30px] p-10 !shadow-card-value transition-all hover:bg-green-gradient sm:w-[300px]"
             >
               {item?.icon}
               <Box

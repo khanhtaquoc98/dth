@@ -7,11 +7,11 @@ import { Link as LinkScroll } from 'react-scroll'
 export default function MainSection() {
   return (
     <div className="relative mx-auto mb-28 mt-[100px] h-[calc(100vh-200px)] w-full px-4 md:mb-32 md:px-8">
-      <div className="bg-fade-white absolute z-10 flex h-full w-[calc(100%-2rem)] items-center">
+      <div className="absolute z-10 flex h-full w-[calc(100%-2rem)] items-center bg-fade-white">
         <div>
           <div
             data-aos="fade-right"
-            className="font-roboto mb-4 text-sm font-bold uppercase !text-[#07693a] md:mb-7 md:text-xl"
+            className="mb-4 font-roboto text-sm font-bold uppercase !text-[#07693a] md:mb-7 md:text-xl"
           >
             Môi trường & năng lượng
           </div>
